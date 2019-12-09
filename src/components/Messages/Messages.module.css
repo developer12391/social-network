@@ -1,0 +1,25 @@
+.content {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-gap: 2%;
+}
+.btn {
+    border-radius: 5px;
+    padding: 8px 20px;
+    background-color: #FA2276;
+    color: white;
+    font-size: 15px;
+}
+
+.textMessage {
+    width: 100%;
+    font-family: Arial;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid black!important;
+    resize: none;
+}

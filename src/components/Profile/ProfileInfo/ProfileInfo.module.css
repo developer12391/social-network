@@ -1,0 +1,21 @@
+.content {
+    grid-area: cont;
+}
+.photo {
+    text-align: center;
+}
+.photo img {
+    border-radius: 5px;
+}
+.nonActivateStatus {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #373a47;
+    border-radius: 20%;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+.nonActivateStatus input {
+    outline: none;
+    border: none;
+    width: 300px;
+}

@@ -1,0 +1,45 @@
+.pageNumber.selectedPage {
+    font-weight: bold;
+    color: #c7176c;
+}
+
+.paginator {
+    margin:10px;
+}
+
+.pageNumber {
+    margin: 1px;
+    padding: 5px;
+    /*border: 1px solid grey;*/
+    cursor: pointer;
+    /*margin-right: 2px;*/
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    color: #000;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
+}
+.pageNumber:hover {
+    background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+    box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+.button{
+    margin: 3px;
+    border-radius: 10%;
+    border:none;
+    color: #fff; /* цвет текста */
+    user-select: none; /* убирать выделение текста */
+    background: #B84767; /* фон кнопки */
+    padding: 3px 3px; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+}
+.button:hover{
+    background: #F25D87;
+}
+.button:active{
+    background: #F25D87;
+}

@@ -1,0 +1,84 @@
+.content {
+    grid-area: cont;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.preloader {
+    text-align: center;
+}
+
+.paginator {
+    text-align: center;
+}
+
+.items {
+    box-sizing: border-box;
+    border: 1px solid #b8b7ad;
+    margin: 10px 10px ;
+    padding-top: 10px;
+    width: 300px;
+    height: auto;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+.description {
+    padding: 0px 15px;
+}
+
+.button {
+    padding: 10px 0px;
+    color: white;
+    width: 100%;
+    border:none;
+}
+
+.buttonFollow {
+    background-color: #FA2276;
+}
+
+.buttonUnfollow {
+    background-color:#911444;
+}
+
+.photoProfile {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.numbers {
+    display: block;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.locationName{
+    padding-left: 4px;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.itemInfo{
+     margin: 10px 0px;
+    padding: 0px 10px;
+     border-right: 1px solid darkgrey;
+    font-family: "Brush Script MT";
+ }
+
+.itemInfo:last-child{
+    border-right: none;
+}

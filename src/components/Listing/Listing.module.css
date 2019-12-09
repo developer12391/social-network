@@ -1,0 +1,55 @@
+.content {
+    grid-area: cont;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    grid-gap: 2%;
+}
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.headingText{
+    text-align: center;
+}
+
+.hrLine {
+    width: 40px;
+}
+.titleText {
+    border-bottom: 1px solid black!important;
+}
+.titleText,.descriptionText {
+    font-family: Arial;
+    outline: none;
+    border: none;
+    background-color: #F9F9F9;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+.descriptionText {
+    resize: none;
+}
+
+.blockInfo {
+    border: 1px solid #D3D3D3;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.title {
+    border-bottom:  1px solid #D3D3D3;
+    padding-bottom: 20px;
+}
+
+.titleDescription {
+    padding-top: 20px;
+}
+
+.btn {
+    padding: 10px 30px;
+    background-color: #FA2276;
+    color: white;
+    font-size: 15px;
+}

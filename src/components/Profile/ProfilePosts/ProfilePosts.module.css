@@ -1,0 +1,12 @@
+.content {
+    grid-area: cont;
+}
+.postsBlock {
+    padding: 10px;
+}
+
+.posts {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}

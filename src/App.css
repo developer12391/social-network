@@ -1,0 +1,39 @@
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+            "header header"
+            "nav cont";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 0fr 12fr;
+    grid-gap: 0; /*пробелы между сетками*/
+    height: auto;
+    min-height: 100vh;
+    font-family: Century;
+}
+
+.app-wrapper-content {
+    padding: 20px;
+    background-color: #F9F9F9;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 30px;
+    height: 25px;
+    left: 10px;
+    top: 15px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #373a47;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #c7176c;
+}
+
+
