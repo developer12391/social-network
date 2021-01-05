@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://developer12391.github.io/social-network/",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "jsx-to-string": "^1.4.0",
     "react": "^16.11.0",
     "react-burger-menu": "^2.6.11",
